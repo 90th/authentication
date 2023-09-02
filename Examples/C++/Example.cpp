@@ -11,6 +11,8 @@
 #include "skCrypter.h"
 #include <winternl.h>
 
+
+// makes sure the hwid doesnt inculde %10 at the end of the string
 std::string encodeHwid(const std::wstring& hwid) {
     std::string encodedHwid = "";
     for (char c : hwid) {
