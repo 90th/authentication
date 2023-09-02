@@ -6,6 +6,7 @@ TO-DO:
 1. rewrite the main auth
 2. introduce server side variables.
 3. user input sanitation, security.
+4. look into php sessions and csrf_tokens
 ```
 
 
